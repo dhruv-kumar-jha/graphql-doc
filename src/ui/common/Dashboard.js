@@ -11,8 +11,8 @@ class Dashboard extends Component {
     return(
       <div className="component--dashboard-container">
         <div className="inner">
-           <h1>Welcome to GraphQL API Documentation Generator</h1>
-           <p>This app will generate documentation of any available GraphQL endpoint or based on the data you provide.</p>
+           <h1>Welcome to GraphQL Server Documentation Generator</h1>
+           <p>This app will generate documentation of any available GraphQL server based on it's endpoint or the Introspection response you provide.</p>
            <div style={{ marginTop: 20 }}>
             <p><strong>You can checkout sample documentation of the GraphQL servers listed below</strong></p>
              <p>
