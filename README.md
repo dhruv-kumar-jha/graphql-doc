@@ -25,6 +25,9 @@ to install all the dependencies.
 2. Now you can host the `build` directory wherever you want, I have used `firebase` but you can easily use **AWS**, **Netlify**, **Github Pages**, etc
 
 
+## Feature Requests
 
+I have few ideas on how to take this project forward and make it more useful to the users, However I'm very open to feature requests.
 
+If you have any specific feature in mind which you think might be helpful to the community as well, Just `Create a New Issue` or `Get In Touch` with me.
 
