@@ -1,0 +1,113 @@
+
+
+header.app-header {
+  background-color: #222;
+  padding: 5px; /*10px*/
+  color: white;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /*box-shadow: 1px 1px 4px 1px #999;*/
+  /* background: #2c539e; */
+  z-index: 100;
+  box-shadow: 0 3px 5px hsla(0,0%,39%,.49);
+
+
+  nav {
+    flex: 1;
+    display: flex;
+    margin: 10px 0;
+  }
+
+  .fl-links-left {
+    justify-content: flex-start;
+  }
+  .fl-links-right {
+    justify-content: flex-end;
+  }
+
+
+  nav a {
+    color: #2196f3;
+    display: flex;
+    padding: 0 15px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  nav a.active {
+    color: #FFF;
+  }
+
+  nav span.separator {
+    background: rgba(255,255,255,0.2);
+    width: 1px;
+  }
+
+
+  .title {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #FFF;
+
+    a {
+      color: #FFF;
+      text-decoration: none;
+    }
+
+  }
+
+  .subtitle {
+    font-size: 15px;
+    padding-left: 10px;
+    font-weight: normal;
+    color: #CCC;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+header.sub_heading {
+  background: transparent;
+  // background: rgba(255, 255, 0, 0.2);
+  border: 1px solid #DDD;
+  padding: 10px 25px;
+  margin-top: -33px;
+  display: flex;
+  justify-content: space-between;
+
+
+  .title {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #000;
+  }
+
+  .title { flex: 1; }
+  .filter--container {
+    flex: 1;
+    text-align: center;
+  }
+  .nav { flex: 1; text-align: right; }
+
+
+
+}
+
+
+
+

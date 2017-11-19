@@ -1,0 +1,182 @@
+
+
+.sections-container-wrapper {
+  padding: 0 20px;
+}
+
+
+.sections_wrapper {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-top: 20px; /* 30 */
+  height: calc( 100vh - 160px );
+
+  section {
+    min-width: 280px;
+    width: 280px;
+    margin: 0 10px;
+    height: 96%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+  }
+  section:first-child {
+    margin-left: 5px;
+  }
+
+
+
+  section header {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 auto;
+    padding: 8px 10px;
+    color: #4d4d4d;
+
+    .title {
+      margin-right: 20px;
+      font-size: 14px;
+      line-height: 18px;
+      font-weight: 700;
+      font-family: $ff_heading;
+      word-wrap: break-word;
+    }
+
+  }
+
+  section .content {
+    background: #e2e4e6; /* #e2e4e6 #EEE */
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    position: relative;
+    white-space: normal;
+    border: 1px solid rgba(0,0,0,0.1); // #DDD
+    padding-bottom: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .cards-list {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0 4px;
+    padding: 0 4px;
+    z-index: 1;
+    min-height: 40px;
+
+    .card {
+      background-color: #fff;
+      border-bottom: 1px solid #ccc;
+      border-radius: 3px;
+      cursor: pointer;
+      margin-bottom: 6px;
+      /* width: 255px; */
+      min-height: 20px;
+      position: relative;
+      z-index: 0;
+      font-size: 14px;
+      line-height: 100%;
+      color: #4d4d4d;
+
+      &:hover {
+        background: #edeff0;
+      }
+
+
+      &.section-description {
+        background: transparent;
+        cursor: default;
+        border: none;
+        box-shadow: none;
+        .card-content { padding: 10px 0; }
+      }
+
+
+      &.deprecated {
+        background: #ffe0d7;
+      }
+
+      .card-content {
+        border: 1px solid #DDD;
+        border-radius: 3px;
+        padding: 10px;
+
+
+        // .title, .description {
+        //   padding: 10px;
+        //   // font-family: Helvetica, ​Arial, ​sans-serif;
+        // }
+        .title {
+          word-wrap: break-word;
+        }
+        .description {
+          padding-top: 10px;
+          word-wrap: break-word;
+        }
+
+        .actions {
+          padding: 8px;
+          padding-top: 0;
+          display: flex;
+        }
+
+        .actions .icon {
+          font-size: 14px;
+          line-height: 16px;
+        }
+
+      }
+
+    }
+
+    .ant-tag {
+      margin-top: 5px;
+    }
+
+
+  }
+
+
+
+
+
+}
+
+
+
+
+
+.cards-list::-webkit-scrollbar {
+  height: 12px;
+  width: 9px;
+}
+.cards-list::-webkit-scrollbar-thumb {
+  /* background: #666; */
+  background: rgba(0,0,0,.3);
+  border-radius: 20px;
+}
+.cards-list::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 20px;
+}
+
+
+
+

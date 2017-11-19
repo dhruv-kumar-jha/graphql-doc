@@ -1,0 +1,155 @@
+
+
+
+.app {
+  text-align: center;
+}
+
+.app-body {
+  font-size: large;
+  margin-top: 20px;
+}
+
+
+input, select, textarea, label, button { cursor: pointer; }
+
+.ant-input {
+  color: #000;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.ant-tag {
+  cursor: default;
+}
+
+// .ant-tag a, .ant-tag a:hover { color: transparent; }
+
+
+
+
+.component--dashboard-container {
+  max-width: 600px;
+  padding: 60px 40px;
+  background: #def5ff;
+  margin: 0 auto;
+  border-radius: 4px;
+  border: 1px solid #97e0ff;
+
+  .inner {
+    max-width: 440px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    color: #000;
+    font-family: $ff_default;
+    font-weight: 400;
+    font-size: 24px; /*30*/
+    line-height: 20px; /*34*/
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 15px;
+    color: #000;
+    margin-top: 15px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+.component--page-not-found {
+  max-width: 600px;
+  padding: 40px 20px;
+  background: #ffebe4;
+  margin: 0 auto;
+  border-radius: 4px;
+  border: 1px solid #ffc5b1;
+
+  h1 {
+    color: #000;
+    // font-family: Segoe UI,Open Sans,Tahoma,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 20px; /*30*/
+    line-height: 20px; /*34*/
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+input.url {
+  width: 100%;
+  border: 1px solid #CCC;
+  padding: 15px;
+  font-size: 17px;
+  line-height: 17px;
+  color: #000;
+  font-family: $ff_arial;
+  border-radius: 3px;
+}
+
+
+
+.filter {
+  width: 80%;
+}
+
+
+.dev--resources {
+  margin: 20px 0;
+  p {
+    margin-top: 3px;
+    font-family: $ff_code;
+  }
+  a {
+    font-size: 16px;
+    line-height: 16px;
+    display: inline-block;
+    &:hover { text-decoration: underline; }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

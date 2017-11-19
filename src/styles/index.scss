@@ -1,0 +1,21 @@
+// import css from antd lib
+@import '~antd/dist/antd.css';
+
+@import './config/variables.scss';
+@import './config/mixins.scss';
+
+
+
+body {
+	font-family: $ff_default;
+	background: $body_background;
+	padding-top: $header_height;
+}
+
+
+
+
+@import './ui/common.scss';
+@import './ui/header.scss';
+@import './ui/sections.scss';
+@import './ui/modal.scss';
