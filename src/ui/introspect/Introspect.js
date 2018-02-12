@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import URLEntryForm from 'ui/introspect/URLEntryForm';
-import Documentation from 'ui/introspect/Documentation';
-import Store from 'global/Store';
+import URLEntryForm from './URLEntryForm';
+import Documentation from './Documentation';
+import Store from '../../global/Store';
 
 
 class Introspect extends Component {

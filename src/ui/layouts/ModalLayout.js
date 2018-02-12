@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router'
 import { Modal } from 'antd';
-import ModalHeader from 'components/ModalHeader';
+import ModalHeader from '../../components/ModalHeader';
 
 
 const ModalLayout = (props) => {

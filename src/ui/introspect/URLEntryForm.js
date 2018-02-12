@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Button, Input, Spin, message, Alert } from 'antd';
-import Helper from 'global/Helper';
+import Helper from '../../global/Helper';
 import QueryString from 'query-string';
 import { withRouter } from 'react-router-dom';
-import IntrospectionQuery from 'global/IntrospectionQuery';
+import IntrospectionQuery from '../../global/IntrospectionQuery';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 

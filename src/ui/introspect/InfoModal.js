@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ModalLayout from 'ui/layouts/ModalLayout';
-import Store from 'global/Store';
+import ModalLayout from '../layouts/ModalLayout';
+import Store from '../../global/Store';
 import { Tag, Spin } from 'antd';
 import _ from 'lodash';
 import QueryString from 'query-string';
