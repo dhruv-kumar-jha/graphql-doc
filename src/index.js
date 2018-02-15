@@ -19,7 +19,7 @@ import InfoModal from 'ui/introspect/InfoModal';
 
 import DevPage from 'ui/common/Dev';
 
-
+// replace it with your own tracking code.
 ReactGA.initialize('UA-109500944-1');
 
 const history = createBrowserHistory();
