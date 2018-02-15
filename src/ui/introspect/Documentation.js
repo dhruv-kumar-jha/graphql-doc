@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Helper from 'global/Helper';
-import Store from 'global/Store';
+import Helper from '../../global/Helper';
+import Store from '../../global/Store';
 import { Button, Tag, AutoComplete } from 'antd';
 import { withRouter } from 'react-router-dom';
 
-import Card from 'components/Card';
+import Card from '../../components/Card';
 const Option = AutoComplete.Option;
 
 

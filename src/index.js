@@ -8,16 +8,16 @@ import ReactGA from 'react-ga';
 import { createBrowserHistory } from 'history';
 
 import './styles/index.css';
-import Store from 'global/Store';
+import Store from './global/Store';
 
-import DefaultLayout from 'ui/layouts/Default';
+import DefaultLayout from './ui/layouts/Default';
 
-import DashboardPage from 'ui/common/Dashboard';
-import IntrospectPage from 'ui/introspect/Introspect';
-import PageNotFound from 'ui/common/NotFound';
-import InfoModal from 'ui/introspect/InfoModal';
+import DashboardPage from './ui/common/Dashboard';
+import IntrospectPage from './ui/introspect/Introspect';
+import PageNotFound from './ui/common/NotFound';
+import InfoModal from './ui/introspect/InfoModal';
 
-import DevPage from 'ui/common/Dev';
+import DevPage from './ui/common/Dev';
 
 // replace it with your own tracking code.
 ReactGA.initialize('UA-109500944-1');
@@ -63,4 +63,3 @@ ReactDOM.render(
 );
 
 registerServiceWorker();
-
