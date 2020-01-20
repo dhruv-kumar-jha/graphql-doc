@@ -16,11 +16,19 @@ class Dashboard extends Component {
            <div style={{ marginTop: 20 }}>
             <p><strong>You can checkout sample documentation of the GraphQL servers listed below</strong></p>
              <p>
-              <Link to="/introspect?endpoint=https://mpjk0plp9.lp.gql.zone/graphql">Starwars API</Link>
+              <Link to="/introspect?endpoint=https://graphql.anilist.co/">AniList - Anime and manga datum, including character, staff, and live airing data.</Link>
               <br/>
-              <Link to="/introspect?endpoint=https://www.graphqlhub.com/graphql">GraphQL Hub</Link>
+              <Link to="/introspect?endpoint=https://metaphysics-production.artsy.net/">Artsy - free online platform for collecting and discovering art</Link>
               <br/>
-              <Link to="/introspect?endpoint=https://us-west-2.api.scaphold.io/graphql/graphql-world?">GraphQL World</Link>
+              <Link to="/introspect?endpoint=https://countries.trevorblades.com/">Countries - Information about countries, continents, and languages, based on Countries List</Link>
+              <br/>
+              <Link to="/introspect?endpoint=https://api.graphql.jobs/">GraphQL Jobs - GraphQL jobs in modern startups</Link>
+              <br/>
+              <Link to="/introspect?endpoint=https://api.graphloc.com/graphql">GraphLoc - Find a geolocation of an IP address including latitude, longitude, city, country, time zone and area code. Free to use, SSL supported</Link>
+
+              <br/>
+              <br/>
+              <a href="https://github.com/APIs-guru/graphql-apis" target="_blank" rel="noopener noreferrer">More endpoints available at: https://github.com/APIs-guru/graphql-apis</a>
 
              </p>
            </div>

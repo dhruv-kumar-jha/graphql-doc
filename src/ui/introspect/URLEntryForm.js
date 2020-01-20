@@ -142,6 +142,7 @@ class URLEntryForm extends Component {
           <CopyToClipboard text={ IntrospectionQuery.query } onCopy={ () => message.info('Copied!') }>
             <Button type="primary">Copy Introspection Query to Clipboard</Button>
           </CopyToClipboard>
+          <p>Feel free to update the query if needed!</p>
           </div>
 
 

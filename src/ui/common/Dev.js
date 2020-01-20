@@ -28,6 +28,11 @@ class Dev extends Component {
            </div>
 
            <div style={{ marginTop: 20 }}>
+            <p>Looking for GraphQL & React JS Developers? Feel free to email me at <a href="mailto:dhruv@infiniti7.com">dhruv@infiniti7.com</a></p>
+           </div>
+
+
+           <div style={{ marginTop: 20 }}>
             <p><strong>Awesome Resources Used to Build this App</strong></p>
             <div className="dev--resources">
               { resources.map( project => {

@@ -15,7 +15,7 @@ const Header = (props) => {
 
       <h1 className="title">
         <Link to="/">GraphQL</Link>
-        <span className="subtitle">Doc</span>
+        <span className="subtitle">Documentation Generator</span>
       </h1>
       <nav className="fl-links-right">
         <NavLink to="/dev" activeClassName="active">Developer Notes</NavLink>
