@@ -26,8 +26,10 @@ export default {
   fetchFromResponse( response ) {
     Store.set( 'url', 'Introspection Response');
     Store.set( 'raw', response.data.__schema );
+    console.log("response.data.__schema", response.data.__schema);
     const processed = this.processSchema( response );
     Store.set( 'processed', processed );
+    console.log("processed", processed);
     Store.persist();
     return true;
   },
