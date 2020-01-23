@@ -7,7 +7,7 @@
     "axios": "^0.17.0",
     "build-css": "^0.2.0",
     "history": "^4.7.2",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.13",
     "node-sass-chokidar": "^0.0.3",
     "query-string": "^5.0.1",
     "react": "^16.0.0",
